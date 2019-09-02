@@ -10,7 +10,7 @@ contract StableCoin is ERC20, ERC20Detailed, ERC20Mintable, ERC20Burnable, ERC20
 
     constructor(address _minter,uint _defAmount)
         ERC20Mintable()
-        ERC20Detailed("JCoinNext", "JCN", 8)
+        ERC20Detailed("StableCoin", "STC", 8)
         public
     {
         //msg.senderはsuper contractで自動的にminterになるため
