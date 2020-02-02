@@ -43,7 +43,8 @@ module.exports = {
     // options below to some value.
     //
     ganache: {
-      provider: () => new HDWalletProvider("salad true resist cook anchor inner over void sign match unusual slide", "http://127.0.0.1:8545/"),
+      // provider: () => new HDWalletProvider("salad true resist cook anchor inner over void sign match unusual slide", "http://127.0.0.1:8545/"),
+      host: "127.0.0.1",
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
       gas:3000000,
